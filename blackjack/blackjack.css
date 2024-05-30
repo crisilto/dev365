@@ -1,0 +1,201 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #282828;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333333;
+}
+
+#logo {
+    height: 40px;
+}
+
+.welcome-container {
+    text-align: center;
+    background-color: #31785C; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    margin: 20px auto; 
+    max-width: 600px; 
+}
+
+.welcome-container h2 {
+    color: #efe067; 
+    margin-bottom: 10px;
+    font-size: 2em;
+}
+
+.welcome-container p {
+    font-size: 1.2em;
+    color: #fff; 
+}
+
+.welcome-container #monedero {
+    font-weight: bold;
+    color: #efe067; 
+}
+
+button#add-funds-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    color: #333;
+    background-color: #efe067; 
+    transition: background-color 0.3s;
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+button#add-funds-btn:hover {
+    background-color: #286647; 
+    color: #fff;
+    transition: 0.6s;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 200px;
+}
+
+nav ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav li {
+    margin: 0 15px;
+    color: #aaa;
+    cursor: pointer;
+}
+
+.nav-superior {
+    background-color: #333333;
+    padding: 15px 200px;
+}
+
+.nav-inferior {
+    background-color: #31785C;
+    padding: 7px 200px;
+}
+
+.nav-inferior input {
+    padding: 5px;
+    border: none;
+}
+
+.nav-inferior .login-container button {
+    margin-left: 10px;
+    padding: 5px 15px;
+    border: none;
+    color: #fff;
+    background-color: #fcb400;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.nav-inferior .login-container button:hover {
+    background-color: #fca000;
+}
+
+main {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#game-container {
+    background-color: #286647; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 600px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+#game-container h3 {
+    color: #efe067;
+    margin-bottom: 20px;
+}
+
+#game-container .columns {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+#game-container .column {
+    background-color: #31785C; 
+    padding: 20px;
+    border-radius: 10px;
+    width: 45%;
+    text-align: center;
+    border: 1px solid #efe067; 
+}
+
+#game-container .column p {
+    color: #fff; 
+    margin: 10px 0;
+}
+
+#game-container .column h4 {
+    color: #efe067; 
+    margin-bottom: 10px;
+}
+
+.button-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 10px;
+}
+
+.button-container button {
+    flex: 1 1 calc(50% - 10px); 
+    padding: 10px;
+    font-size: 1em;
+    color: #fff;
+    background-color: #31785C;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.button-container button:hover {
+    background-color: #286647;
+}
+
+.button-container input {
+    padding: 10px;
+    font-size: 1em;
+    border: 1px solid #555;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    margin-bottom: 10px;
+    flex: 1 1 100%;
+}
+
+#message-el {
+    font-style: italic;
+    margin-top: 20px;
+    text-align: center;
+    color: #efe067; 
+}
+
+.button-container .full-width-button {
+    flex: 1 1 100%; 
+    margin-top: 10px; 
+}
